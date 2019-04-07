@@ -1,3 +1,4 @@
+#!/bin/ash
 RUNVERSION="$1"
 PORT="$2"
 
