@@ -1,0 +1,102 @@
+{
+  "GameName": "Intersect",
+  "ServerPort": 5400,
+  "UseApi": false,
+  "ApiPort": 5400,
+  "UPnP": true,
+  "OpenPortChecker": true,
+  "Player": {
+    "MaxStat": 255,
+    "MaxLevel": 100,
+    "MaxInventory": 35,
+    "MaxSpells": 35,
+    "MaxBank": 100,
+    "MaxCharacters": 1,
+    "ItemDropChance": 0
+  },
+  "Passability": {
+    "Normal": false,
+    "Safe": true,
+    "Arena": false
+  },
+  "Equipment": {
+    "WeaponSlot": 2,
+    "ShieldSlot": 3,
+    "Slots": [
+      "Helmet",
+      "Armor",
+      "Weapon",
+      "Shield"
+    ],
+    "Paperdoll": {
+      "Up": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield"
+      ],
+      "Down": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield"
+      ],
+      "Left": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield"
+      ],
+      "Right": [
+        "Player",
+        "Armor",
+        "Helmet",
+        "Weapon",
+        "Shield"
+      ]
+    },
+    "ToolTypes": [
+      "Axe",
+      "Pickaxe",
+      "Shovel",
+      "Fishing Rod"
+    ]
+  },
+  "AnimatedSprites": [],
+  "Combat": {
+    "RegenTime": 3000,
+    "MinAttackRate": 500,
+    "MaxAttackRate": 200,
+    "BlockingSlow": 30,
+    "MaxDashSpeed": 200
+  },
+  "Map": {
+    "GameBorderStyle": 0,
+    "ItemSpawnTime": 15000,
+    "ItemDespawnTime": 15000,
+    "ZDimensionVisible": false,
+    "Width": 32,
+    "Height": 26,
+    "TileWidth": 32,
+    "TileHeight": 32
+  },
+  "PlayerDatabase": {
+    "Type": "sqlite",
+    "Server": "localhost",
+    "Port": 3306,
+    "Database": "",
+    "Username": "",
+    "Password": ""
+  },
+  "GameDatabase": {
+    "Type": "sqlite",
+    "Server": "localhost",
+    "Port": 3306,
+    "Database": "",
+    "Username": "",
+    "Password": ""
+  }
+}
